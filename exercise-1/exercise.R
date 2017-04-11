@@ -8,7 +8,7 @@ scored.points <- c(12, 3, 37, 27)
 scored.against <- c(10, 9, 18, 17)
 
 # Combine your two vectors into a dataframe
-games <- data.frame(scored.points, socred.against)
+games <- data.frame(scored.points, scored.against)
 
 # Create a new column "diff" that is the difference in points
 games$diff <- games$scored.points - games$scored.against
